@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF6E23171D61D08F008B5F1B /* BHKeypad.h in Headers */ = {isa = PBXBuildFile; fileRef = AF6E23161D61D08F008B5F1B /* BHKeypad.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF6E23271D61D212008B5F1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6E23261D61D212008B5F1B /* Assets.xcassets */; };
+		AFA8EC081D61D27F00ADCE55 /* KeyPad in Resources */ = {isa = PBXBuildFile; fileRef = AFA8EC071D61D27F00ADCE55 /* KeyPad */; };
+		AFA8EC111D61D3EB00ADCE55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8EC101D61D3EB00ADCE55 /* AppDelegate.swift */; };
+		AFA8EC131D61D3EB00ADCE55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8EC121D61D3EB00ADCE55 /* ViewController.swift */; };
+		AFA8EC161D61D3EB00ADCE55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA8EC141D61D3EB00ADCE55 /* Main.storyboard */; };
+		AFA8EC181D61D3EB00ADCE55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFA8EC171D61D3EB00ADCE55 /* Assets.xcassets */; };
+		AFA8EC1B1D61D3EB00ADCE55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA8EC191D61D3EB00ADCE55 /* LaunchScreen.storyboard */; };
+		AFA8EC201D61D4AB00ADCE55 /* BHKeypad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6E23131D61D08F008B5F1B /* BHKeypad.framework */; };
+		AFA8EC221D61D59500ADCE55 /* Utils in Resources */ = {isa = PBXBuildFile; fileRef = AFA8EC211D61D59500ADCE55 /* Utils */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF6E23131D61D08F008B5F1B /* BHKeypad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BHKeypad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6E23161D61D08F008B5F1B /* BHKeypad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHKeypad.h; sourceTree = "<group>"; };
+		AF6E23181D61D08F008B5F1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF6E23261D61D212008B5F1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFA8EC071D61D27F00ADCE55 /* KeyPad */ = {isa = PBXFileReference; lastKnownFileType = folder; path = KeyPad; sourceTree = "<group>"; };
+		AFA8EC0E1D61D3EB00ADCE55 /* BHKeypadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BHKeypadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA8EC101D61D3EB00ADCE55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFA8EC121D61D3EB00ADCE55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFA8EC151D61D3EB00ADCE55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFA8EC171D61D3EB00ADCE55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFA8EC1A1D61D3EB00ADCE55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFA8EC1C1D61D3EB00ADCE55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFA8EC211D61D59500ADCE55 /* Utils */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utils; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF6E230F1D61D08F008B5F1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA8EC0B1D61D3EB00ADCE55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA8EC201D61D4AB00ADCE55 /* BHKeypad.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF6E23091D61D08E008B5F1B = {
+			isa = PBXGroup;
+			children = (
+				AF6E23151D61D08F008B5F1B /* BHKeypad */,
+				AFA8EC0F1D61D3EB00ADCE55 /* BHKeypadDemo */,
+				AF6E23141D61D08F008B5F1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF6E23141D61D08F008B5F1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF6E23131D61D08F008B5F1B /* BHKeypad.framework */,
+				AFA8EC0E1D61D3EB00ADCE55 /* BHKeypadDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF6E23151D61D08F008B5F1B /* BHKeypad */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8EC211D61D59500ADCE55 /* Utils */,
+				AFA8EC071D61D27F00ADCE55 /* KeyPad */,
+				AF6E23161D61D08F008B5F1B /* BHKeypad.h */,
+				AF6E23181D61D08F008B5F1B /* Info.plist */,
+				AF6E23261D61D212008B5F1B /* Assets.xcassets */,
+			);
+			path = BHKeypad;
+			sourceTree = "<group>";
+		};
+		AFA8EC0F1D61D3EB00ADCE55 /* BHKeypadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8EC101D61D3EB00ADCE55 /* AppDelegate.swift */,
+				AFA8EC121D61D3EB00ADCE55 /* ViewController.swift */,
+				AFA8EC141D61D3EB00ADCE55 /* Main.storyboard */,
+				AFA8EC171D61D3EB00ADCE55 /* Assets.xcassets */,
+				AFA8EC191D61D3EB00ADCE55 /* LaunchScreen.storyboard */,
+				AFA8EC1C1D61D3EB00ADCE55 /* Info.plist */,
+			);
+			path = BHKeypadDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AF6E23101D61D08F008B5F1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6E23171D61D08F008B5F1B /* BHKeypad.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AF6E23121D61D08F008B5F1B /* BHKeypad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6E231B1D61D08F008B5F1B /* Build configuration list for PBXNativeTarget "BHKeypad" */;
+			buildPhases = (
+				AF6E230E1D61D08F008B5F1B /* Sources */,
+				AF6E230F1D61D08F008B5F1B /* Frameworks */,
+				AF6E23101D61D08F008B5F1B /* Headers */,
+				AF6E23111D61D08F008B5F1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BHKeypad;
+			productName = BHKeypad;
+			productReference = AF6E23131D61D08F008B5F1B /* BHKeypad.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AFA8EC0D1D61D3EB00ADCE55 /* BHKeypadDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFA8EC1D1D61D3EB00ADCE55 /* Build configuration list for PBXNativeTarget "BHKeypadDemo" */;
+			buildPhases = (
+				AFA8EC0A1D61D3EB00ADCE55 /* Sources */,
+				AFA8EC0B1D61D3EB00ADCE55 /* Frameworks */,
+				AFA8EC0C1D61D3EB00ADCE55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BHKeypadDemo;
+			productName = BHKeypadDemo;
+			productReference = AFA8EC0E1D61D3EB00ADCE55 /* BHKeypadDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF6E230A1D61D08E008B5F1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mitsw;
+				TargetAttributes = {
+					AF6E23121D61D08F008B5F1B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					AFA8EC0D1D61D3EB00ADCE55 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AF6E230D1D61D08E008B5F1B /* Build configuration list for PBXProject "BHKeypad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF6E23091D61D08E008B5F1B;
+			productRefGroup = AF6E23141D61D08F008B5F1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF6E23121D61D08F008B5F1B /* BHKeypad */,
+				AFA8EC0D1D61D3EB00ADCE55 /* BHKeypadDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF6E23111D61D08F008B5F1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA8EC221D61D59500ADCE55 /* Utils in Resources */,
+				AFA8EC081D61D27F00ADCE55 /* KeyPad in Resources */,
+				AF6E23271D61D212008B5F1B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA8EC0C1D61D3EB00ADCE55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA8EC1B1D61D3EB00ADCE55 /* LaunchScreen.storyboard in Resources */,
+				AFA8EC181D61D3EB00ADCE55 /* Assets.xcassets in Resources */,
+				AFA8EC161D61D3EB00ADCE55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF6E230E1D61D08F008B5F1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA8EC0A1D61D3EB00ADCE55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA8EC131D61D3EB00ADCE55 /* ViewController.swift in Sources */,
+				AFA8EC111D61D3EB00ADCE55 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFA8EC141D61D3EB00ADCE55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFA8EC151D61D3EB00ADCE55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFA8EC191D61D3EB00ADCE55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFA8EC1A1D61D3EB00ADCE55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF6E23191D61D08F008B5F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF6E231A1D61D08F008B5F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF6E231C1D61D08F008B5F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BHKeypad/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitsw.BHKeypad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AF6E231D1D61D08F008B5F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BHKeypad/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitsw.BHKeypad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AFA8EC1E1D61D3EB00ADCE55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BHKeypadDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitsw.BHKeypadDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFA8EC1F1D61D3EB00ADCE55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BHKeypadDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitsw.BHKeypadDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF6E230D1D61D08E008B5F1B /* Build configuration list for PBXProject "BHKeypad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6E23191D61D08F008B5F1B /* Debug */,
+				AF6E231A1D61D08F008B5F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6E231B1D61D08F008B5F1B /* Build configuration list for PBXNativeTarget "BHKeypad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6E231C1D61D08F008B5F1B /* Debug */,
+				AF6E231D1D61D08F008B5F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFA8EC1D1D61D3EB00ADCE55 /* Build configuration list for PBXNativeTarget "BHKeypadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA8EC1E1D61D3EB00ADCE55 /* Debug */,
+				AFA8EC1F1D61D3EB00ADCE55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF6E230A1D61D08E008B5F1B /* Project object */;
+}

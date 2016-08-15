@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C8F9E3AF097CFD63A5359FE78904FB7A7B004928",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7FE2FF502FAD47373F5F54EDACD94D3F638EF705" : 0,
+    "C8F9E3AF097CFD63A5359FE78904FB7A7B004928" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BA901566-07EF-4621-A56E-40F192D3EB11",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7FE2FF502FAD47373F5F54EDACD94D3F638EF705" : "..\/Workspace\/WhatsCall\/ioswhatscall",
+    "C8F9E3AF097CFD63A5359FE78904FB7A7B004928" : "BHKeypad\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BHKeypad",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BHKeypad\/BHKeypad.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "10.33.128.24:cms-dev\/ioswhatscall.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7FE2FF502FAD47373F5F54EDACD94D3F638EF705"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/brandhill\/BHKeypad",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C8F9E3AF097CFD63A5359FE78904FB7A7B004928"
+    }
+  ]
+}

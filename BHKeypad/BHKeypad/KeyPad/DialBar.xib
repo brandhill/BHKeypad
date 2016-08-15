@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DialBar" customModule="iWhatsCall">
+            <connections>
+                <outlet property="backSpaceView" destination="D7x-XK-cy8" id="B35-Ui-eGf"/>
+                <outlet property="dialButton" destination="SaB-KR-qe5" id="Fka-MX-XSR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="579" height="78"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SaB-KR-qe5">
+                    <rect key="frame" x="215" y="17" width="150" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="width" priority="900" constant="150" id="D2d-US-D7M"/>
+                        <constraint firstAttribute="height" constant="45" id="R9Q-y4-sEf"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="bgCornerRadius">
+                            <real key="value" value="22.5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="bgBorderWidth">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="bgBorderColor">
+                            <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D7x-XK-cy8" customClass="NumKey" customModule="iWhatsCall">
+                    <rect key="frame" x="479" y="12" width="100" height="55"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="o4k-CO-rxY"/>
+                        <constraint firstAttribute="width" priority="800" constant="100" id="vd3-3i-Li8"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="SaB-KR-qe5" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="5Uz-iO-eUP"/>
+                <constraint firstAttribute="trailing" secondItem="D7x-XK-cy8" secondAttribute="trailing" id="77v-CB-wOg"/>
+                <constraint firstItem="SaB-KR-qe5" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="D1D-De-sUF"/>
+                <constraint firstItem="D7x-XK-cy8" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="SaB-KR-qe5" secondAttribute="trailing" constant="5" id="LzZ-qY-YmH"/>
+                <constraint firstItem="D7x-XK-cy8" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="etG-nC-5MV"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="498.5" y="161"/>
+        </view>
+    </objects>
+</document>

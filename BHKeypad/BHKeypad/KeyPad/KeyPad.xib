@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KeyPad" customModule="iWhatsCall">
+            <connections>
+                <outlet property="creditPointView" destination="IRO-fR-D9s" id="KTp-bt-C6h"/>
+                <outlet property="dialBar" destination="QwU-zg-aYd" id="XEr-j1-FP8"/>
+                <outlet property="numKey0" destination="H8k-oc-uWs" id="AvR-hI-Vmj"/>
+                <outlet property="numKey1" destination="R8D-jO-zHk" id="Xel-Ay-ugK"/>
+                <outlet property="numKey2" destination="5UR-gX-gm8" id="chm-ss-4dU"/>
+                <outlet property="numKey3" destination="SJd-kX-W9M" id="70c-ah-qxQ"/>
+                <outlet property="numKey4" destination="0NG-Ri-h43" id="f2B-0p-yN8"/>
+                <outlet property="numKey5" destination="e0b-VX-fMg" id="h1s-6L-aB7"/>
+                <outlet property="numKey6" destination="0zl-ZX-HkL" id="1ku-AU-5Wb"/>
+                <outlet property="numKey7" destination="AxF-Zj-sW5" id="d0R-pF-r5p"/>
+                <outlet property="numKey8" destination="pR1-Z2-0A7" id="CtP-dH-5ki"/>
+                <outlet property="numKey9" destination="Hue-yd-rgi" id="E9M-YK-biV"/>
+                <outlet property="numKeyHash" destination="GDw-le-bsK" id="XG5-e6-KTg"/>
+                <outlet property="numKeyStar" destination="orc-fP-JeF" id="1s5-yM-ple"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="701" height="443"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="gqg-Ax-I58">
+                    <rect key="frame" x="0.0" y="77" width="701" height="320"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IRO-fR-D9s" customClass="CreditView" customModule="iWhatsCall">
+                            <rect key="frame" x="0.0" y="0.0" width="701" height="50"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="15i-Vd-nBv"/>
+                            </constraints>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="GQ9-MN-2dB" userLabel="Num Key Row 1">
+                            <rect key="frame" x="0.0" y="50" width="701" height="55"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R8D-jO-zHk" customClass="NumKey" customModule="iWhatsCall">
+                                    <rect key="frame" x="0.0" y="0.0" width="234" height="55"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5UR-gX-gm8" customClass="NumKey" customModule="iWhatsCall">
+                                    <rect key="frame" x="234" y="0.0" width="233" height="55"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SJd-kX-W9M" customClass="NumKey" customModule="iWhatsCall">
+                                    <rect key="frame" x="467" y="0.0" width="234" height="55"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="KpN-oM-VZg"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="691-LG-XAl" userLabel="Num Key Row 2">
+                            <rect key="frame" x="0.0" y="105" width="701" height="55"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0NG-Ri-h43" customClass="NumKey" customModule="iWhatsCall">
+                                    <rect key="frame" x="0.0" y="0.0" width="234" height="55"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e0b-VX-fMg" customClass="NumKey" customModule="iWhatsCall">
+                                    <rect key="frame" x="234" y="0.0" width="233" height="55"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0zl-ZX-HkL" customClass="NumKey" customModule="iWhatsCall">
+                                    <rect key="frame" x="467" y="0.0" width="234" height="55"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="nUk-Av-0wb"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="lyg-Wo-e3w" userLabel="Num Key Row 3">
+                            <rect key="frame" x="0.0" y="160" width="701" height="55"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AxF-Zj-sW5" customClass="NumKey" customModule="iWhatsCall">
+                                    <rect key="frame" x="0.0" y="0.0" width="234" height="55"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pR1-Z2-0A7" customClass="NumKey" customModule="iWhatsCall">
+                                    <rect key="frame" x="234" y="0.0" width="233" height="55"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hue-yd-rgi" customClass="NumKey" customModule="iWhatsCall">
+                                    <rect key="frame" x="467" y="0.0" width="234" height="55"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="r1r-Dp-wDg"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="tcQ-lN-PFO" userLabel="Num Key Row 4">
+                            <rect key="frame" x="0.0" y="215" width="701" height="55"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="orc-fP-JeF" customClass="NumKey" customModule="iWhatsCall">
+                                    <rect key="frame" x="0.0" y="0.0" width="234" height="55"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H8k-oc-uWs" customClass="NumKey" customModule="iWhatsCall">
+                                    <rect key="frame" x="234" y="0.0" width="233" height="55"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GDw-le-bsK" customClass="NumKey" customModule="iWhatsCall">
+                                    <rect key="frame" x="467" y="0.0" width="234" height="55"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="swt-Gn-ayc"/>
+                            </constraints>
+                        </stackView>
+                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QwU-zg-aYd" customClass="DialBar" customModule="iWhatsCall">
+                            <rect key="frame" x="0.0" y="270" width="701" height="50"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="3hs-43-6oP"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="gqg-Ax-I58" secondAttribute="trailing" id="RnV-P4-Zo7"/>
+                <constraint firstItem="gqg-Ax-I58" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="YZp-Wu-zaZ"/>
+                <constraint firstItem="gqg-Ax-I58" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="iUG-1n-dpl"/>
+                <constraint firstItem="gqg-Ax-I58" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="vgJ-Ot-DbX"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="493.5" y="575.5"/>
+        </view>
+    </objects>
+</document>
