@@ -11,7 +11,7 @@ import Foundation
 class CreditView: UIView {
     
     @IBOutlet weak var creditText: UILabel!
-    @IBOutlet weak var creditValue: CreditLabel!
+    @IBOutlet weak var creditValue: UILabel!
     var contentView: UIView!
     
     override init(frame: CGRect) {
@@ -40,7 +40,5 @@ class CreditView: UIView {
     func setupUiComponent(){
         creditText.textColor = UIColor.whiteColor()
         creditValue.textColor = UIColor(red:96/255.0, green:175/255.0, blue:255/255.0,  alpha:1);
-        
-        creditText.text = tr(.MyCurrentCredits)
     }
 }

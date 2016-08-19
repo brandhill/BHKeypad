@@ -15,9 +15,9 @@ class NumKey: UIView {
     @IBOutlet weak var alphaLabel: UILabel!
     var contentView: UIView!
     
-    private let btnColorSelector = [UIControlState.Highlighted : UIColor(red:15/255.0, green:68/255.0, blue:106/255.0,  alpha:1),
-                            UIControlState.Normal : UIColor.clearColor(),
-                            UIControlState.Disabled : UIColor.clearColor()]
+//    private let btnColorSelector = [UIControlState.Highlighted : UIColor(red:15/255.0, green:68/255.0, blue:106/255.0,  alpha:1),
+//                            UIControlState.Normal : UIColor.clearColor(),
+//                            UIControlState.Disabled : UIColor.clearColor()]
     
     override init(frame: CGRect) {
         super.init(frame: frame)

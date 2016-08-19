@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+import UIKit
 
 @IBDesignable
 class DialBar: UIView{
@@ -15,9 +15,9 @@ class DialBar: UIView{
     @IBOutlet weak var backSpaceView: NumKey!
     
     var contentView: UIView!
-    private let btnColorSelector = [UIControlState.Highlighted : UIColor(red:83/255.0, green:181/255.0, blue:25/255.0,  alpha:1),
-                                    UIControlState.Normal : UIColor(red:113/255.0, green:211/255.0, blue:55/255.0,  alpha:1),
-                                    UIControlState.Disabled : UIColor.clearColor()]
+//    private let btnColorSelector = [UIControlState.Highlighted : UIColor(red:83/255.0, green:181/255.0, blue:25/255.0,  alpha:1),
+//                                    UIControlState.Normal : UIColor(red:113/255.0, green:211/255.0, blue:55/255.0,  alpha:1),
+//                                    UIControlState.Disabled : UIColor.clearColor()]
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -43,13 +43,13 @@ class DialBar: UIView{
     }
     
     func setupUiComponent(){
-        dialButton.setImage(UIImage(asset: UIImage.Asset.Icon_Dial_Call), forState: .Normal)
-        dialButton.setImage(UIImage(asset: UIImage.Asset.Icon_Dial_Call), forState: .Highlighted)
-        dialButton.setBackgroundColorSelector(btnColorSelector)
+//        dialButton.setImage(UIImage(asset: UIImage.Asset.Icon_Dial_Call), forState: .Normal)
+//        dialButton.setImage(UIImage(asset: UIImage.Asset.Icon_Dial_Call), forState: .Highlighted)
+        //dialButton.setBackgroundColorSelector(btnColorSelector)
         
         backSpaceView.button.tintColor = UIColor(red:96/255.0, green:175/255.0, blue:255/255.0,  alpha:1)
-        backSpaceView.button.setImage(UIImage(asset: UIImage.Asset.Icon_Backspace), forState: .Normal)
-        backSpaceView.button.setImage(UIImage(asset: UIImage.Asset.Icon_Backspace), forState: .Highlighted)
+        backSpaceView.button.setImage(UIImage(named: "Icon_Backspace.png"), forState: .Normal)
+        backSpaceView.button.setImage(UIImage(named: "Icon_Backspace.png"), forState: .Highlighted)
         backSpaceView.alphaLabel.hidden = true
         backSpaceView.digitLabel.hidden = true
     }

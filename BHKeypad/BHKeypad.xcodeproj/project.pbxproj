@@ -7,24 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF0425011D66B2B200F2B3E4 /* DTMFHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0425001D66B2B200F2B3E4 /* DTMFHelper.swift */; };
 		AF6E23171D61D08F008B5F1B /* BHKeypad.h in Headers */ = {isa = PBXBuildFile; fileRef = AF6E23161D61D08F008B5F1B /* BHKeypad.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF6E23271D61D212008B5F1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6E23261D61D212008B5F1B /* Assets.xcassets */; };
-		AFA8EC081D61D27F00ADCE55 /* KeyPad in Resources */ = {isa = PBXBuildFile; fileRef = AFA8EC071D61D27F00ADCE55 /* KeyPad */; };
 		AFA8EC111D61D3EB00ADCE55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8EC101D61D3EB00ADCE55 /* AppDelegate.swift */; };
 		AFA8EC131D61D3EB00ADCE55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8EC121D61D3EB00ADCE55 /* ViewController.swift */; };
 		AFA8EC161D61D3EB00ADCE55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA8EC141D61D3EB00ADCE55 /* Main.storyboard */; };
 		AFA8EC181D61D3EB00ADCE55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFA8EC171D61D3EB00ADCE55 /* Assets.xcassets */; };
 		AFA8EC1B1D61D3EB00ADCE55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA8EC191D61D3EB00ADCE55 /* LaunchScreen.storyboard */; };
-		AFA8EC201D61D4AB00ADCE55 /* BHKeypad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6E23131D61D08F008B5F1B /* BHKeypad.framework */; };
-		AFA8EC221D61D59500ADCE55 /* Utils in Resources */ = {isa = PBXBuildFile; fileRef = AFA8EC211D61D59500ADCE55 /* Utils */; };
+		AFA8EC281D61D67C00ADCE55 /* BHKeypad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6E23131D61D08F008B5F1B /* BHKeypad.framework */; };
+		AFA8EC291D61D67C00ADCE55 /* BHKeypad.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF6E23131D61D08F008B5F1B /* BHKeypad.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AFA8EC2F1D62032200ADCE55 /* BHKeypad.h in Sources */ = {isa = PBXBuildFile; fileRef = AF6E23161D61D08F008B5F1B /* BHKeypad.h */; };
+		AFF7C0FF1D65554C00DE9EA6 /* CreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF7C0F51D65553800DE9EA6 /* CreditView.swift */; };
+		AFF7C1001D65554C00DE9EA6 /* CreditView.xib in Sources */ = {isa = PBXBuildFile; fileRef = AFF7C0F61D65553800DE9EA6 /* CreditView.xib */; };
+		AFF7C1011D65554C00DE9EA6 /* DialBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF7C0F71D65553800DE9EA6 /* DialBar.swift */; };
+		AFF7C1021D65554C00DE9EA6 /* DialBar.xib in Sources */ = {isa = PBXBuildFile; fileRef = AFF7C0F81D65553800DE9EA6 /* DialBar.xib */; };
+		AFF7C1031D65554C00DE9EA6 /* KeyPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF7C0F91D65553800DE9EA6 /* KeyPad.swift */; };
+		AFF7C1041D65554C00DE9EA6 /* KeyPad.xib in Sources */ = {isa = PBXBuildFile; fileRef = AFF7C0FA1D65553800DE9EA6 /* KeyPad.xib */; };
+		AFF7C1051D65554C00DE9EA6 /* NumKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF7C0FB1D65553800DE9EA6 /* NumKey.swift */; };
+		AFF7C1061D65554C00DE9EA6 /* NumKey.xib in Sources */ = {isa = PBXBuildFile; fileRef = AFF7C0FC1D65553800DE9EA6 /* NumKey.xib */; };
+		AFF7C1071D65554C00DE9EA6 /* CustomUIComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF7C0FE1D65553800DE9EA6 /* CustomUIComponent.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AFA8EC2A1D61D67C00ADCE55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF6E230A1D61D08E008B5F1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF6E23121D61D08F008B5F1B;
+			remoteInfo = BHKeypad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFA8EC2C1D61D67C00ADCE55 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AFA8EC291D61D67C00ADCE55 /* BHKeypad.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		AF0425001D66B2B200F2B3E4 /* DTMFHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTMFHelper.swift; sourceTree = "<group>"; };
 		AF6E23131D61D08F008B5F1B /* BHKeypad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BHKeypad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6E23161D61D08F008B5F1B /* BHKeypad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHKeypad.h; sourceTree = "<group>"; };
 		AF6E23181D61D08F008B5F1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF6E23261D61D212008B5F1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AFA8EC071D61D27F00ADCE55 /* KeyPad */ = {isa = PBXFileReference; lastKnownFileType = folder; path = KeyPad; sourceTree = "<group>"; };
 		AFA8EC0E1D61D3EB00ADCE55 /* BHKeypadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BHKeypadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA8EC101D61D3EB00ADCE55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFA8EC121D61D3EB00ADCE55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,7 +66,15 @@
 		AFA8EC171D61D3EB00ADCE55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFA8EC1A1D61D3EB00ADCE55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFA8EC1C1D61D3EB00ADCE55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFA8EC211D61D59500ADCE55 /* Utils */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utils; sourceTree = "<group>"; };
+		AFF7C0F51D65553800DE9EA6 /* CreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditView.swift; sourceTree = "<group>"; };
+		AFF7C0F61D65553800DE9EA6 /* CreditView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreditView.xib; sourceTree = "<group>"; };
+		AFF7C0F71D65553800DE9EA6 /* DialBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialBar.swift; sourceTree = "<group>"; };
+		AFF7C0F81D65553800DE9EA6 /* DialBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DialBar.xib; sourceTree = "<group>"; };
+		AFF7C0F91D65553800DE9EA6 /* KeyPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPad.swift; sourceTree = "<group>"; };
+		AFF7C0FA1D65553800DE9EA6 /* KeyPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyPad.xib; sourceTree = "<group>"; };
+		AFF7C0FB1D65553800DE9EA6 /* NumKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumKey.swift; sourceTree = "<group>"; };
+		AFF7C0FC1D65553800DE9EA6 /* NumKey.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumKey.xib; sourceTree = "<group>"; };
+		AFF7C0FE1D65553800DE9EA6 /* CustomUIComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFA8EC201D61D4AB00ADCE55 /* BHKeypad.framework in Frameworks */,
+				AFA8EC281D61D67C00ADCE55 /* BHKeypad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +99,8 @@
 		AF6E23091D61D08E008B5F1B = {
 			isa = PBXGroup;
 			children = (
+				AFF7C0F41D65553800DE9EA6 /* KeyPad */,
+				AFF7C0FD1D65553800DE9EA6 /* Utils */,
 				AF6E23151D61D08F008B5F1B /* BHKeypad */,
 				AFA8EC0F1D61D3EB00ADCE55 /* BHKeypadDemo */,
 				AF6E23141D61D08F008B5F1B /* Products */,
@@ -75,8 +119,6 @@
 		AF6E23151D61D08F008B5F1B /* BHKeypad */ = {
 			isa = PBXGroup;
 			children = (
-				AFA8EC211D61D59500ADCE55 /* Utils */,
-				AFA8EC071D61D27F00ADCE55 /* KeyPad */,
 				AF6E23161D61D08F008B5F1B /* BHKeypad.h */,
 				AF6E23181D61D08F008B5F1B /* Info.plist */,
 				AF6E23261D61D212008B5F1B /* Assets.xcassets */,
@@ -95,6 +137,32 @@
 				AFA8EC1C1D61D3EB00ADCE55 /* Info.plist */,
 			);
 			path = BHKeypadDemo;
+			sourceTree = "<group>";
+		};
+		AFF7C0F41D65553800DE9EA6 /* KeyPad */ = {
+			isa = PBXGroup;
+			children = (
+				AF0425001D66B2B200F2B3E4 /* DTMFHelper.swift */,
+				AFF7C0F51D65553800DE9EA6 /* CreditView.swift */,
+				AFF7C0F61D65553800DE9EA6 /* CreditView.xib */,
+				AFF7C0F71D65553800DE9EA6 /* DialBar.swift */,
+				AFF7C0F81D65553800DE9EA6 /* DialBar.xib */,
+				AFF7C0F91D65553800DE9EA6 /* KeyPad.swift */,
+				AFF7C0FA1D65553800DE9EA6 /* KeyPad.xib */,
+				AFF7C0FB1D65553800DE9EA6 /* NumKey.swift */,
+				AFF7C0FC1D65553800DE9EA6 /* NumKey.xib */,
+			);
+			name = KeyPad;
+			path = BHKeypad/KeyPad;
+			sourceTree = "<group>";
+		};
+		AFF7C0FD1D65553800DE9EA6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AFF7C0FE1D65553800DE9EA6 /* CustomUIComponent.swift */,
+			);
+			name = Utils;
+			path = BHKeypad/Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,10 +204,12 @@
 				AFA8EC0A1D61D3EB00ADCE55 /* Sources */,
 				AFA8EC0B1D61D3EB00ADCE55 /* Frameworks */,
 				AFA8EC0C1D61D3EB00ADCE55 /* Resources */,
+				AFA8EC2C1D61D67C00ADCE55 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AFA8EC2B1D61D67C00ADCE55 /* PBXTargetDependency */,
 			);
 			name = BHKeypadDemo;
 			productName = BHKeypadDemo;
@@ -188,8 +258,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFA8EC221D61D59500ADCE55 /* Utils in Resources */,
-				AFA8EC081D61D27F00ADCE55 /* KeyPad in Resources */,
 				AF6E23271D61D212008B5F1B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,6 +279,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF0425011D66B2B200F2B3E4 /* DTMFHelper.swift in Sources */,
+				AFF7C0FF1D65554C00DE9EA6 /* CreditView.swift in Sources */,
+				AFF7C1001D65554C00DE9EA6 /* CreditView.xib in Sources */,
+				AFF7C1011D65554C00DE9EA6 /* DialBar.swift in Sources */,
+				AFF7C1021D65554C00DE9EA6 /* DialBar.xib in Sources */,
+				AFF7C1031D65554C00DE9EA6 /* KeyPad.swift in Sources */,
+				AFF7C1041D65554C00DE9EA6 /* KeyPad.xib in Sources */,
+				AFF7C1051D65554C00DE9EA6 /* NumKey.swift in Sources */,
+				AFF7C1061D65554C00DE9EA6 /* NumKey.xib in Sources */,
+				AFF7C1071D65554C00DE9EA6 /* CustomUIComponent.swift in Sources */,
+				AFA8EC2F1D62032200ADCE55 /* BHKeypad.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +303,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFA8EC2B1D61D67C00ADCE55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF6E23121D61D08F008B5F1B /* BHKeypad */;
+			targetProxy = AFA8EC2A1D61D67C00ADCE55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AFA8EC141D61D3EB00ADCE55 /* Main.storyboard */ = {
@@ -374,6 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = BHKeypadDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mitsw.BHKeypadDemo;
@@ -385,6 +473,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = BHKeypadDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mitsw.BHKeypadDemo;
@@ -420,6 +509,7 @@
 				AFA8EC1F1D61D3EB00ADCE55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
